@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_grus.mk
+    $(LOCAL_DIR)/afterlife_grus.mk
