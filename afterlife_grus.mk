@@ -14,7 +14,13 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from grus device
 $(call inherit-product, device/xiaomi/grus/device.mk)
 
-PRODUCT_NAME := aosp_grus
+# Afterlife_flags
+AFTERLIFE_MAINTAINER := sweetbtrfly 
+USE_PIXEL_CHARGING := true 
+TARGET_SUPPORTS_BLUR := true 
+TARGET_FACE_UNLOCK_SUPPORTED := true 
+
+PRODUCT_NAME := afterlife_grus
 PRODUCT_DEVICE := grus
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
